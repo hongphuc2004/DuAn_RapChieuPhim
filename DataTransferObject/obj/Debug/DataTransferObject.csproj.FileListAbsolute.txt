@@ -1,0 +1,6 @@
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataTransferObject\bin\Debug\DataTransferObject.dll
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataTransferObject\bin\Debug\DataTransferObject.pdb
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataTransferObject\obj\Debug\DataTransferObject.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataTransferObject\obj\Debug\DataTransferObject.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataTransferObject\obj\Debug\DataTransferObject.dll
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataTransferObject\obj\Debug\DataTransferObject.pdb

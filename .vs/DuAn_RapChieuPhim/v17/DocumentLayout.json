@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\duan_rapchieuphim\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|solutionrelative:duan_rapchieuphim\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\duan_rapchieuphim\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|solutionrelative:duan_rapchieuphim\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\duan_rapchieuphim\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|solutionrelative:duan_rapchieuphim\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\duan_rapchieuphim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|solutionrelative:duan_rapchieuphim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|c:\\users\\lenovo\\source\\repos\\duan_rapchieuphim\\duan_rapchieuphim\\chonghe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|solutionrelative:duan_rapchieuphim\\chonghe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|c:\\users\\lenovo\\source\\repos\\duan_rapchieuphim\\duan_rapchieuphim\\qlphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|solutionrelative:duan_rapchieuphim\\qlphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|c:\\users\\lenovo\\source\\repos\\duan_rapchieuphim\\duan_rapchieuphim\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|solutionrelative:duan_rapchieuphim\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|c:\\users\\lenovo\\source\\repos\\duan_rapchieuphim\\duan_rapchieuphim\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|solutionrelative:duan_rapchieuphim\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\duan_rapchieuphim\\rap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|solutionrelative:duan_rapchieuphim\\rap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\duan_rapchieuphim\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|solutionrelative:duan_rapchieuphim\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\duan_rapchieuphim\\qlphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{733A8E33-F588-4CC9-9010-0E6AE9E060E7}|DuAn_RapChieuPhim\\Presentation.csproj|solutionrelative:duan_rapchieuphim\\qlphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\Program.cs",
+              "RelativeDocumentMoniker": "DuAn_RapChieuPhim\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\Program.cs",
+              "RelativeToolTip": "DuAn_RapChieuPhim\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T12:57:29.732Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChonGhe.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\ChonGhe.cs",
+              "RelativeDocumentMoniker": "DuAn_RapChieuPhim\\ChonGhe.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\ChonGhe.cs [Design]",
+              "RelativeToolTip": "DuAn_RapChieuPhim\\ChonGhe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T01:24:40.816Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\HoaDon.cs",
+              "RelativeDocumentMoniker": "DuAn_RapChieuPhim\\HoaDon.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\HoaDon.cs",
+              "RelativeToolTip": "DuAn_RapChieuPhim\\HoaDon.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAASwBMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T00:49:21.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\HoaDon.cs",
+              "RelativeDocumentMoniker": "DuAn_RapChieuPhim\\HoaDon.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\HoaDon.cs [Design]",
+              "RelativeToolTip": "DuAn_RapChieuPhim\\HoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T00:44:11.738Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QLPhim.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\QLPhim.cs",
+              "RelativeDocumentMoniker": "DuAn_RapChieuPhim\\QLPhim.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\QLPhim.cs",
+              "RelativeToolTip": "DuAn_RapChieuPhim\\QLPhim.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAASwBMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:19:33.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QLPhim.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\QLPhim.cs",
+              "RelativeDocumentMoniker": "DuAn_RapChieuPhim\\QLPhim.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\QLPhim.cs [Design]",
+              "RelativeToolTip": "DuAn_RapChieuPhim\\QLPhim.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T06:28:34.364Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Phim.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\Phim.cs",
+              "RelativeDocumentMoniker": "DuAn_RapChieuPhim\\Phim.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\Phim.cs [Design]",
+              "RelativeToolTip": "DuAn_RapChieuPhim\\Phim.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T12:29:26.063Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaiKhoan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "DuAn_RapChieuPhim\\TaiKhoan.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\TaiKhoan.cs [Design]",
+              "RelativeToolTip": "DuAn_RapChieuPhim\\TaiKhoan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:40:58.38Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Rap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\Rap.cs",
+              "RelativeDocumentMoniker": "DuAn_RapChieuPhim\\Rap.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\Rap.cs [Design]",
+              "RelativeToolTip": "DuAn_RapChieuPhim\\Rap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T07:59:32.461Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrangChu.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\TrangChu.cs",
+              "RelativeDocumentMoniker": "DuAn_RapChieuPhim\\TrangChu.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\TrangChu.cs",
+              "RelativeToolTip": "DuAn_RapChieuPhim\\TrangChu.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAADgv1AAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T07:42:15.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrangChu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\TrangChu.cs",
+              "RelativeDocumentMoniker": "DuAn_RapChieuPhim\\TrangChu.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\DuAn_RapChieuPhim\\DuAn_RapChieuPhim\\TrangChu.cs [Design]",
+              "RelativeToolTip": "DuAn_RapChieuPhim\\TrangChu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T07:42:07.982Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

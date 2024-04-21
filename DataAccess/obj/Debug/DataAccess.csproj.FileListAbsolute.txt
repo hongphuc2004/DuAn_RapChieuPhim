@@ -1,0 +1,9 @@
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataAccess\bin\Debug\DataTransferObject.dll
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataAccess\bin\Debug\DataTransferObject.pdb
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataAccess\obj\Debug\DataAccess.csproj.Up2Date
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DataAccess\obj\Debug\DataAccess.pdb
