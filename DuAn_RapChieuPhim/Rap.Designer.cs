@@ -43,8 +43,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -58,7 +61,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(457, 438);
+            this.dataGridView1.Size = new System.Drawing.Size(587, 438);
             this.dataGridView1.TabIndex = 1;
             // 
             // MaRapPhim
@@ -84,9 +87,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnXoa);
-            this.groupBox1.Controls.Add(this.btnSua);
-            this.groupBox1.Controls.Add(this.btnThem);
+            this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.richTextBox1);
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.textBox1);
@@ -105,7 +106,7 @@
             this.btnXoa.Appearance.Font = new System.Drawing.Font("Tahoma", 8.5F);
             this.btnXoa.Appearance.Options.UseFont = true;
             this.btnXoa.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnXoa.ImageOptions.SvgImage")));
-            this.btnXoa.Location = new System.Drawing.Point(134, 228);
+            this.btnXoa.Location = new System.Drawing.Point(226, 36);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(5);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(108, 38);
@@ -117,7 +118,7 @@
             this.btnSua.Appearance.Font = new System.Drawing.Font("Tahoma", 8.5F);
             this.btnSua.Appearance.Options.UseFont = true;
             this.btnSua.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnSua.ImageOptions.SvgImage")));
-            this.btnSua.Location = new System.Drawing.Point(252, 228);
+            this.btnSua.Location = new System.Drawing.Point(13, 109);
             this.btnSua.Margin = new System.Windows.Forms.Padding(5);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(108, 38);
@@ -129,7 +130,7 @@
             this.btnThem.Appearance.Font = new System.Drawing.Font("Tahoma", 8.5F);
             this.btnThem.Appearance.Options.UseFont = true;
             this.btnThem.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnThem.ImageOptions.SvgImage")));
-            this.btnThem.Location = new System.Drawing.Point(17, 228);
+            this.btnThem.Location = new System.Drawing.Point(13, 36);
             this.btnThem.Margin = new System.Windows.Forms.Padding(4);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(108, 38);
@@ -190,11 +191,38 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã rạp phim:";
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.simpleButton1);
+            this.groupBox2.Controls.Add(this.btnThem);
+            this.groupBox2.Controls.Add(this.btnSua);
+            this.groupBox2.Controls.Add(this.btnXoa);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(17, 219);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(342, 155);
+            this.groupBox2.TabIndex = 11;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Chức năng";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 8.5F);
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton1.ImageOptions.SvgImage")));
+            this.simpleButton1.Location = new System.Drawing.Point(226, 109);
+            this.simpleButton1.Margin = new System.Windows.Forms.Padding(5);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(108, 38);
+            this.simpleButton1.TabIndex = 11;
+            this.simpleButton1.Text = "Thoát";
+            // 
             // Rap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(834, 450);
+            this.ClientSize = new System.Drawing.Size(963, 450);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Rap";
@@ -202,6 +230,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -221,5 +250,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private DevExpress.XtraEditors.SimpleButton btnXoa;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }

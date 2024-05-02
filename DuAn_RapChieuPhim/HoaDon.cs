@@ -17,6 +17,9 @@ namespace DuAn_RapChieuPhim
             InitializeComponent();
         }
 
-        
+        private void btnXN_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thanh toán thành công");
+        }
     }
 }

@@ -38,6 +38,12 @@
             this.Thoiluong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Mota = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.txtTenphim = new System.Windows.Forms.TextBox();
@@ -46,17 +52,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btnThemQLPhim = new DevExpress.XtraEditors.SimpleButton();
             this.btnSuaQLPhim = new DevExpress.XtraEditors.SimpleButton();
             this.btnXoaQLPhim = new DevExpress.XtraEditors.SimpleButton();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -148,6 +150,61 @@
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(411, 97);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(179, 71);
+            this.richTextBox1.TabIndex = 22;
+            this.richTextBox1.Text = "";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(314, 100);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(56, 20);
+            this.label7.TabIndex = 21;
+            this.label7.Text = "Mô tả:";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(411, 58);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(179, 26);
+            this.textBox5.TabIndex = 20;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(314, 58);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(91, 20);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "Thời lượng:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(413, 15);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(177, 28);
+            this.comboBox1.TabIndex = 18;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(314, 21);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(73, 20);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Thể loại:";
+            // 
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -220,90 +277,48 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Mã phim:";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(314, 21);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 20);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Thể loại:";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(413, 15);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(177, 28);
-            this.comboBox1.TabIndex = 18;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(314, 58);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(91, 20);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "Thời lượng:";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(411, 58);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(179, 26);
-            this.textBox5.TabIndex = 20;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(314, 100);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(56, 20);
-            this.label7.TabIndex = 21;
-            this.label7.Text = "Mô tả:";
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(411, 97);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(179, 71);
-            this.richTextBox1.TabIndex = 22;
-            this.richTextBox1.Text = "";
-            // 
             // btnThemQLPhim
             // 
-            this.btnThemQLPhim.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton1.ImageOptions.SvgImage")));
-            this.btnThemQLPhim.Location = new System.Drawing.Point(631, 18);
-            this.btnThemQLPhim.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThemQLPhim.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnThemQLPhim.ImageOptions.SvgImage")));
+            this.btnThemQLPhim.Location = new System.Drawing.Point(135, 88);
+            this.btnThemQLPhim.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnThemQLPhim.Name = "btnThemQLPhim";
-            this.btnThemQLPhim.Size = new System.Drawing.Size(88, 46);
+            this.btnThemQLPhim.Size = new System.Drawing.Size(110, 58);
             this.btnThemQLPhim.TabIndex = 10;
             this.btnThemQLPhim.Text = "Thêm";
             // 
             // btnSuaQLPhim
             // 
-            this.btnSuaQLPhim.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton2.ImageOptions.SvgImage")));
-            this.btnSuaQLPhim.Location = new System.Drawing.Point(828, 18);
-            this.btnSuaQLPhim.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnSuaQLPhim.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnSuaQLPhim.ImageOptions.SvgImage")));
+            this.btnSuaQLPhim.Location = new System.Drawing.Point(12, 24);
+            this.btnSuaQLPhim.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnSuaQLPhim.Name = "btnSuaQLPhim";
-            this.btnSuaQLPhim.Size = new System.Drawing.Size(88, 46);
+            this.btnSuaQLPhim.Size = new System.Drawing.Size(110, 58);
             this.btnSuaQLPhim.TabIndex = 11;
             this.btnSuaQLPhim.Text = "Sửa";
             // 
             // btnXoaQLPhim
             // 
-            this.btnXoaQLPhim.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton3.ImageOptions.SvgImage")));
-            this.btnXoaQLPhim.Location = new System.Drawing.Point(729, 18);
-            this.btnXoaQLPhim.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnXoaQLPhim.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnXoaQLPhim.ImageOptions.SvgImage")));
+            this.btnXoaQLPhim.Location = new System.Drawing.Point(12, 87);
+            this.btnXoaQLPhim.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.btnXoaQLPhim.Name = "btnXoaQLPhim";
-            this.btnXoaQLPhim.Size = new System.Drawing.Size(88, 46);
+            this.btnXoaQLPhim.Size = new System.Drawing.Size(110, 58);
             this.btnXoaQLPhim.TabIndex = 12;
             this.btnXoaQLPhim.Text = "Xóa";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btnXoaQLPhim);
+            this.groupBox2.Controls.Add(this.btnSuaQLPhim);
+            this.groupBox2.Controls.Add(this.btnThemQLPhim);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(630, 12);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(308, 165);
+            this.groupBox2.TabIndex = 13;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Chức năng";
             // 
             // QLPhim
             // 
@@ -311,9 +326,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(941, 581);
-            this.Controls.Add(this.btnXoaQLPhim);
-            this.Controls.Add(this.btnSuaQLPhim);
-            this.Controls.Add(this.btnThemQLPhim);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "QLPhim";
@@ -321,6 +334,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -353,5 +367,6 @@
         private DevExpress.XtraEditors.SimpleButton btnThemQLPhim;
         private DevExpress.XtraEditors.SimpleButton btnSuaQLPhim;
         private DevExpress.XtraEditors.SimpleButton btnXoaQLPhim;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }

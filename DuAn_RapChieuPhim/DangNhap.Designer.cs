@@ -44,7 +44,7 @@
             // 
             this.pictureEdit1.EditValue = ((object)(resources.GetObject("pictureEdit1.EditValue")));
             this.pictureEdit1.Location = new System.Drawing.Point(13, 13);
-            this.pictureEdit1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureEdit1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit1.Size = new System.Drawing.Size(368, 368);
@@ -56,7 +56,7 @@
             this.label1.Font = new System.Drawing.Font("High Tower Text", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(423, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(350, 39);
+            this.label1.Size = new System.Drawing.Size(339, 39);
             this.label1.TabIndex = 1;
             this.label1.Text = "WELCOME TO PHT";
             // 
@@ -91,6 +91,8 @@
             this.textBox_MatKhauDN.Size = new System.Drawing.Size(320, 34);
             this.textBox_MatKhauDN.TabIndex = 16;
             this.textBox_MatKhauDN.Text = "Nhập mật khẩu";
+            this.textBox_MatKhauDN.Enter += new System.EventHandler(this.textBox_MatKhauDN_Enter);
+            this.textBox_MatKhauDN.Leave += new System.EventHandler(this.textBox_MatKhauDN_Leave);
             // 
             // textBox_TenTaiKhoanDN
             // 
@@ -103,6 +105,8 @@
             this.textBox_TenTaiKhoanDN.Size = new System.Drawing.Size(320, 34);
             this.textBox_TenTaiKhoanDN.TabIndex = 15;
             this.textBox_TenTaiKhoanDN.Text = "Nhập tên tài khoản";
+            this.textBox_TenTaiKhoanDN.Enter += new System.EventHandler(this.textBox_TenTaiKhoanDN_Enter);
+            this.textBox_TenTaiKhoanDN.Leave += new System.EventHandler(this.textBox_TenTaiKhoanDN_Leave);
             // 
             // btnDangNhap
             // 
@@ -114,6 +118,7 @@
             this.btnDangNhap.TabIndex = 20;
             this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.UseVisualStyleBackColor = false;
+            this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
             // lblDK
             // 

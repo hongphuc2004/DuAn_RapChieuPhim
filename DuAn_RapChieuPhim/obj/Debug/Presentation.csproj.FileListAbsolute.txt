@@ -42,3 +42,6 @@ C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DuAn_RapChieuPhim\obj\Debug\DuAn_
 C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DuAn_RapChieuPhim\obj\Debug\DuAn_RapChieuPhim.DangNhap.resources
 C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DuAn_RapChieuPhim\obj\Debug\DuAn_RapChieuPhim.QLPhim.resources
 C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DuAn_RapChieuPhim\obj\Debug\DuAn_RapChieuPhim.HoaDon.resources
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DuAn_RapChieuPhim\bin\Debug\DataAccess.dll
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DuAn_RapChieuPhim\bin\Debug\DataAccess.pdb
+C:\Users\Lenovo\source\repos\DuAn_RapChieuPhim\DuAn_RapChieuPhim\obj\Debug\DuAn_RapChieuPhim.QL_User.resources

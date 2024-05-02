@@ -94,6 +94,12 @@
     <Compile Include="QLPhim.Designer.cs">
       <DependentUpon>QLPhim.cs</DependentUpon>
     </Compile>
+    <Compile Include="QL_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QL_User.Designer.cs">
+      <DependentUpon>QL_User.cs</DependentUpon>
+    </Compile>
     <Compile Include="Rap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +145,9 @@
     </Compile>
     <EmbeddedResource Include="QLPhim.resx">
       <DependentUpon>QLPhim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QL_User.resx">
+      <DependentUpon>QL_User.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rap.resx">
       <DependentUpon>Rap.cs</DependentUpon>
