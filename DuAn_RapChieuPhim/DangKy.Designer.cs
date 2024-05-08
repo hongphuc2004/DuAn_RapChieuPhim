@@ -39,23 +39,27 @@
             this.lblDN = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.btnDangKy = new System.Windows.Forms.Button();
+            this.textBox_Ten = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox_SDT = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureEdit1
             // 
             this.pictureEdit1.EditValue = ((object)(resources.GetObject("pictureEdit1.EditValue")));
-            this.pictureEdit1.Location = new System.Drawing.Point(14, 14);
-            this.pictureEdit1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureEdit1.Location = new System.Drawing.Point(18, 18);
+            this.pictureEdit1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit1.Size = new System.Drawing.Size(367, 365);
+            this.pictureEdit1.Size = new System.Drawing.Size(459, 456);
             this.pictureEdit1.TabIndex = 1;
             // 
             // textBox_MatKhauDK
             // 
             this.textBox_MatKhauDK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_MatKhauDK.Location = new System.Drawing.Point(514, 158);
+            this.textBox_MatKhauDK.Location = new System.Drawing.Point(514, 152);
             this.textBox_MatKhauDK.Name = "textBox_MatKhauDK";
             this.textBox_MatKhauDK.Size = new System.Drawing.Size(274, 27);
             this.textBox_MatKhauDK.TabIndex = 15;
@@ -63,7 +67,7 @@
             // textBox_TenTaiKhoanDK
             // 
             this.textBox_TenTaiKhoanDK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_TenTaiKhoanDK.Location = new System.Drawing.Point(514, 116);
+            this.textBox_TenTaiKhoanDK.Location = new System.Drawing.Point(514, 86);
             this.textBox_TenTaiKhoanDK.Name = "textBox_TenTaiKhoanDK";
             this.textBox_TenTaiKhoanDK.Size = new System.Drawing.Size(274, 27);
             this.textBox_TenTaiKhoanDK.TabIndex = 14;
@@ -73,7 +77,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label2.Location = new System.Drawing.Point(426, 161);
+            this.label2.Location = new System.Drawing.Point(426, 155);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 20);
             this.label2.TabIndex = 13;
@@ -85,16 +89,16 @@
             this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label1.Location = new System.Drawing.Point(394, 119);
+            this.label1.Location = new System.Drawing.Point(381, 89);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 20);
+            this.label1.Size = new System.Drawing.Size(124, 20);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Tên tài khoản:";
+            this.label1.Text = "Tên đăng nhập:";
             // 
             // textBox_EmailDK
             // 
             this.textBox_EmailDK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_EmailDK.Location = new System.Drawing.Point(514, 203);
+            this.textBox_EmailDK.Location = new System.Drawing.Point(514, 185);
             this.textBox_EmailDK.Name = "textBox_EmailDK";
             this.textBox_EmailDK.Size = new System.Drawing.Size(274, 27);
             this.textBox_EmailDK.TabIndex = 17;
@@ -104,7 +108,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label4.Location = new System.Drawing.Point(452, 206);
+            this.label4.Location = new System.Drawing.Point(452, 188);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 20);
             this.label4.TabIndex = 16;
@@ -128,7 +132,7 @@
             this.label3.Font = new System.Drawing.Font("High Tower Text", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(423, 28);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(350, 39);
+            this.label3.Size = new System.Drawing.Size(339, 39);
             this.label3.TabIndex = 20;
             this.label3.Text = "WELCOME TO PHT";
             // 
@@ -142,6 +146,47 @@
             this.btnDangKy.TabIndex = 21;
             this.btnDangKy.Text = "Đăng ký";
             this.btnDangKy.UseVisualStyleBackColor = false;
+            this.btnDangKy.Click += new System.EventHandler(this.btnDangKy_Click);
+            // 
+            // textBox_Ten
+            // 
+            this.textBox_Ten.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Ten.Location = new System.Drawing.Point(514, 119);
+            this.textBox_Ten.Name = "textBox_Ten";
+            this.textBox_Ten.Size = new System.Drawing.Size(274, 27);
+            this.textBox_Ten.TabIndex = 23;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label5.Location = new System.Drawing.Point(394, 122);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(114, 20);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "Tên tài khoản:";
+            // 
+            // textBox_SDT
+            // 
+            this.textBox_SDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_SDT.Location = new System.Drawing.Point(514, 218);
+            this.textBox_SDT.Name = "textBox_SDT";
+            this.textBox_SDT.Size = new System.Drawing.Size(274, 27);
+            this.textBox_SDT.TabIndex = 25;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label6.Location = new System.Drawing.Point(394, 221);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(111, 20);
+            this.label6.TabIndex = 24;
+            this.label6.Text = "Số điện thoại:";
             // 
             // DangKy
             // 
@@ -149,6 +194,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 393);
+            this.Controls.Add(this.textBox_SDT);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.textBox_Ten);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.btnDangKy);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblDN);
@@ -179,5 +228,9 @@
         private System.Windows.Forms.LinkLabel lblDN;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnDangKy;
+        private System.Windows.Forms.TextBox textBox_Ten;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox_SDT;
+        private System.Windows.Forms.Label label6;
     }
 }

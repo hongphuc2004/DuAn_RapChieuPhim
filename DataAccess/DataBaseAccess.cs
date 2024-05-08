@@ -18,9 +18,17 @@ namespace DataAccess
         {
             public static SqlConnection Connect()
             {
-                ChuoiKetNoi = @"Data Source=LAPTOP-PICGBI40\HONGPHUC;Initial Catalog=ABC_CINEMA_MOVIE_BOOKING;Integrated Security=True;";
+                ChuoiKetNoi = @"Data Source=LAPTOP-TT2BDHBO;Initial Catalog=ABC_CINEMA_MOVIE_BOOKING;Integrated Security=True";
                 SqlConnection conn = new SqlConnection(ChuoiKetNoi);
                 return conn;
+            }
+        }
+        public class Connection
+        {
+            private static string stringConnection = @"Data Source=LAPTOP-TT2BDHBO;Initial Catalog=ABC_CINEMA_MOVIE_BOOKING;Integrated Security=True";
+            public static SqlConnection GetSqlConnection()
+            {
+                return new SqlConnection(stringConnection);
             }
         }
         public static DataBaseAccess GetInstance()
